@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+<!--<suite name="Suite" parallel="tests" thread-count="2">-->
+<listeners>
+      
+      <listener class-name="Listners.listner"/>
+  </listeners>
+
+  <test name="Test">
+
+<!-- <groups>
+    <run>
+  <include name="smoke"></include>
+  <include name="regression"></include>
+  </run>
+  </groups>-->
+  
+    <classes>
+      
+       <class name="Test.LoginTest"/>
+       <class name="Test.PrintingTestCase"/>
+       <class name="Test.AddCartTest"/>
+       
+     
+    </classes>
+ </test>
+ </suite> <!-- Suite -->
