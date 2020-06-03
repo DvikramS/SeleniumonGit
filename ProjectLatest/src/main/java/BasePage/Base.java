@@ -29,7 +29,7 @@ public class Base {
 	public static String s="";
 	static{
 	 ps=new Properties();
-	 reporter=new ExtentHtmlReporter("C:\\Users\\Dhirendrasingh\\Desktop\\Paission\\Selenium\\Project\\Reports\\extentreporting.html");
+	 reporter=new ExtentHtmlReporter(".\\index.html");
 
 	 
 	 try {
